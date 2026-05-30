@@ -20,7 +20,7 @@ interface SerpApiResponse {
   app_highlight: AppHighlight;
 }
 
-import "./App.css";
+import "../App.css";
 
 function Preview() {
     // const [data, setData] = useState<any>(null);
