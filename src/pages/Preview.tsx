@@ -48,7 +48,7 @@ function Preview() {
         //     .then((result) => setData(result))
         //     .catch(() => setData("error"));
         const queryString = new URLSearchParams(params).toString();
-        fetch(`/api/preview?${queryString}`)
+        fetch(`/api/search?${queryString}`)
             .then((res) => res.json())
             .then((result: SerpApiResponse) => {
                 console.log(result)
